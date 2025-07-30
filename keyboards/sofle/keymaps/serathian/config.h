@@ -1,0 +1,22 @@
+// Copyright 2024 Santosh Kumar (@santosh)
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+#pragma once
+
+#define OLED_TIMEOUT 0
+
+#define DEBUG_MATRIX_SCAN_RATE
+#define DEBUG_ENABLE
+#define SPLIT_DEBUG_ENABLE
+
+#define MASTER_LEFT        // or MASTER_RIGHT or EE_HANDS
+#define SPLIT_USB_DETECT
+
+#define TRI_LAYER_LOWER_LAYER 2
+#define TRI_LAYER_UPPER_LAYER 3
+#define TRI_LAYER_ADJUST_LAYER 4
+
+#define SPLIT_TRANSPORT_MIRROR
+#define SPLIT_OLED_ENABLE
+#define SPLIT_LAYER_STATE_ENABLE
+#define SPLIT_WPM_ENABLE
